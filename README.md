@@ -1,6 +1,6 @@
 # Text Summarization Using Langchain and OpenAI GPT and Gemini
 
-This project demonstrates various text summarization methods utilizing the Langchain framework and gemini-pro model. The tool is capable of summarizing large bodies of text efficiently and effectively, leveraging advanced language processing techniques.
+This project demonstrates various text summarization methods utilizing the Langchain framework and Gemini-pro model. The tool can summarise large bodies of text efficiently and effectively, leveraging advanced language processing techniques.
 
 ## Table of Contents
 
@@ -10,14 +10,13 @@ This project demonstrates various text summarization methods utilizing the Langc
 
 ## Introduction
 
-Text summarization is the process of condensing a piece of text to a shorter version, retaining the most important information. This project employs Langchain and Gemini's Pro model to provide high-quality summaries of input texts. The application supports various text formats and is designed for easy integration and deployment.
+Text summarization is performed using various techniques and the summarization model provided by LangChain with different techniques to handle simple to large and complex text. Text summarization is the process of condensing a piece of text to a shorter version, retaining the most important information. This project employs Langchain and Gemini's Pro model to provide high-quality summaries of input texts. The application supports various text formats and is designed for easy integration and deployment.
 
 ## Features
 
 - Summarizes long texts into concise summaries.
-- Utilizes Gemini's Pro for generating summaries.
-- Supports input from different sources including PDFs.
-- User-friendly web interface using Streamlit.
+- Utilizes Gemini's Pro to generate summaries.
+- Used customized prompt and chains
 
 ## Installation
 
@@ -26,9 +25,8 @@ To get started with the project, follow these steps:
 1. Clone the repository:
 
    ```bash
-   <!-- TODO: UPDATE TO MY  -->
-   git clone https://github.com/spkothari0/Text-Summerization-Using-LangChain-Gemini.git
-   cd langchain-crash-course
+   git clone https://github.com/spkothari0/Text-Summarization-Using-LangChain-Gemini.git
+   cd Text-Summarization-Using-LangChain-Gemini
    ```
 
 2. Install dependencies using Poetry:
@@ -53,4 +51,4 @@ To get started with the project, follow these steps:
 
 5. Run the code examples:
 
-   Run the ipynb file using the kernal that was created in above step.
+   Run the ipynb file using the kernel that was created in the above step.
